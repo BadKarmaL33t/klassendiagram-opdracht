@@ -1,0 +1,32 @@
+klassen:
+
+- warehouse (product location)
+- product
+- tv
+- afstandbediening
+- muurbeugel
+- ci-module
+- user (person)
+- rol (rights)
+
+(functionele) eisen:
+
+
+- (f) als gebruiker moet ik kunnen inloggen
+- (f) als medewerker wil ik een lijst van ieder porducttype kunnen opvragen (opsplitsen)
+- (f) als admins wil ik nieuwe producten met hun kenmerken kunnen opslaan (opsplitsen)
+- (f) als admin wil ik producten kunnen verwijderen
+- (f) als admin / medewerker wil ik producten kunnen aanpassen
+- (f) als admins wil ik de actuele voorraad kunnen inzien 
+- (f) als admins wil ik de verkoopcijfers per product kunnen inzien
+- (f) het systeem moet voor tv's, afstandsbedieningen, 
+  muurbeugels en ci-modules, de applicatie alles gaan bijhouden (inkoopprijs, verkoopprijs, vooraad, etc.)
+- (f) het systeem moet laten zien welke producten tot dezelfde product familie behoren om te 
+  bepalen of een afstandbediening, muurbeugel of ci-module wel bij de tv past.
+- (f) het systeem moet het type gebruiker herkennen en aan de hand van de gebruikersrechten
+  bepalen tot welke zaken de gebruiker toegang heeft
+
+- (nf) Als gebruiker wil ik in 1 opslag kunnen zien waar ik heen moet navigeren
+- (nf) Als admin wil ik van iedere aanpassing een log ontvangen
+- (nf) als gebruiker wil ik een waarschuwing ontvangen voordat ik een aanpassing doorzet
+- (nf) Het systeem moet blijven performen als alle medewerkers zijn ingelogd (neem voor nu even 50 medewerkers aan)
